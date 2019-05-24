@@ -221,7 +221,7 @@
 }
 
 @media only screen and (max-width: 992px) {
-  .nav-item-text {
+  .nav-item-text, .non-dropdown {
     font-family: "Gotham";
     font-size: 20px;
     line-height: 30px;
@@ -247,6 +247,9 @@
 .dropdown:hover .dropdown-menu {display: block; transform: translate3d(9px, 48px, 0px); top: 0px; left:0px;}
 }
 
+.non-dropdown {
+  display: block;
+}
 .dropdown:hover .dropdown-menu {display: block; top: 0px; left:0px;}
 
 .dropdown-menu {
