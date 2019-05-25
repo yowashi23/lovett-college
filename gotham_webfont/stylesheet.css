@@ -321,3 +321,36 @@ font-weight:bold;
   font-size:96px;
   font-family:"Gotham";
 }
+
+@media only screen and (max-width: 767px) {
+  .footer-spacing {
+    text-align: left !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-spacing {
+    text-align: right !important;
+  }
+}
+
+.shrink {
+  height:66px !important;
+  width:75px !important;
+}
+
+.shrink2 {
+  height:75px !important;
+  width:100px !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .lovett-logo {
+    height:66px !important;
+    width:75px !important;
+  }
+  .lovett-logo-link {
+    height:75px !important;
+    width:100px !important;
+  }
+}
