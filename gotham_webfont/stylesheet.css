@@ -334,6 +334,12 @@ font-weight:bold;
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .padding-footer {
+    padding-left:20px;
+  }
+}
+
 .shrink {
   height:66px !important;
   width:75px !important;
