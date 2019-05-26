@@ -354,6 +354,42 @@ font-weight:bold;
     width:100px !important;
   }
 }
-/* SLIDESHOW SECTION START */
 
-/* SLIDESHOW SECTION END */
+.scroll-slideshow {
+  display:block !important;
+}
+
+.hide-slideshow {
+  display:none;
+}
+
+.carousel-control-next1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  opacity: 1.0;
+  -webkit-transition: opacity 0.15s ease;
+  transition: opacity 0.15s ease;
+  text-decoration:none !important;
+}
+
+.photo-text {
+  padding-right: 30px;
+  font-family: "Gotham";
+  font-size: 70px !important;
+  color: #FFC700;
+  font-weight:bold;
+  cursor:pointer;
+}
