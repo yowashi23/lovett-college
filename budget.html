@@ -58,14 +58,15 @@
 
       <!-- Nav Item - Dashboard -->
 
+
       <li class="nav-item">
         <a class="nav-link collapsed sidebar-color" href="#" data-toggle="collapse" data-target="#collapseAbout" aria-expanded="false" aria-controls="collapseAbout">
           <hr class="sidebar-break">
           <span class="sidebar-txt">About</span>
         </a>
+
         <div id="collapseAbout" class="collapse sidebar-collapse-menu" aria-labelledby="About" data-parent="#accordionSidebar">
           <div class="sidebar-dropdown py-1 collapse-inner rounded">
-
             <a class="collapse-item dropdown-text py-1" href="history.html">History</a>
             <a class="collapse-item dropdown-text py-1" href="traditions.html">Traditions</a>
             <a class="collapse-item dropdown-text py-1" href="facilities.html">Facilities</a>
@@ -75,38 +76,39 @@
         </div>
       </li>
 
-      <li class="nav-item">
-        <a class="nav-link collapsed sidebar-color" href="#" data-toggle="collapse" data-target="#collapseGovt" aria-expanded="false" aria-controls="collapseGovt">
+      <!-- Needed to add active here -->
+      <li class="nav-item active">
+        <!-- Needed to remove collapsed and set aria-expanded to true -->
+        <a class="nav-link sidebar-color" href="#" data-toggle="collapse" data-target="#collapseGovt" aria-expanded="true" aria-controls="collapseGovt">
           <hr class="sidebar-break">
-          <span class="sidebar-txt">Government</span>
+          <!-- Added cust-yellow here -->
+          <span class="sidebar-txt cust-yellow">Government</span>
         </a>
-        <div id="collapseGovt" class="collapse sidebar-collapse-menu" aria-labelledby="Government" data-parent="#accordionSidebar">
+        <!-- Needed to add show here -->
+        <div id="collapseGovt" class="collapse show sidebar-collapse-menu" aria-labelledby="Government" data-parent="#accordionSidebar">
           <div class="sidebar-dropdown py-1 collapse-inner rounded">
+            <!-- Needed to add active here -->
             <a class="collapse-item dropdown-text py-1" href="overview.html">Overview</a>
             <a class="collapse-item dropdown-text py-1" href="cc.html">Central Committee</a>
             <a class="collapse-item dropdown-text py-1" href="appointed-positions.html">Appointed Positions</a>
             <a class="collapse-item dropdown-text py-1" href="court.html">College Court</a>
             <a class="collapse-item dropdown-text py-1" href="constitution.html">Constitution</a>
-            <a class="collapse-item dropdown-text py-1" href="budget.html">Budget</a>
+            <a class="collapse-item dropdown-text py-1 active" href="budget.html">Budget</a>
             <a class="collapse-item dropdown-text py-1" href="minutes.html">Minutes</a>
           </div>
           <hr class="sidebar-break">
         </div>
       </li>
 
-      <!-- Needed to add active here -->
-      <li class="nav-item active">
-        <!-- Needed to remove collapsed and set aria-expanded to true -->
-        <a class="nav-link sidebar-color" href="#" data-toggle="collapse" data-target="#collapsePeople" aria-expanded="true" aria-controls="collapsePeople">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed sidebar-color" href="#" data-toggle="collapse" data-target="#collapsePeople" aria-expanded="false" aria-controls="collapsePeople">
           <hr class="sidebar-break">
-          <!-- Needed to add cust-yellow here -->
-          <span class="sidebar-txt cust-yellow">People</span>
+          <span class="sidebar-txt">People</span>
         </a>
-        <!-- Needed to add show here -->
-        <div id="collapsePeople" class="collapse show sidebar-collapse-menu" aria-labelledby="People" data-parent="#accordionSidebar">
+        <div id="collapsePeople" class="collapse sidebar-collapse-menu" aria-labelledby="People" data-parent="#accordionSidebar">
           <div class="sidebar-dropdown py-1 collapse-inner rounded">
-            <!-- Needed to add active here -->
-            <a class="collapse-item dropdown-text py-1 active" href="adult-team.html">Adult Team</a>
+            <a class="collapse-item dropdown-text py-1" href="adult-team.html">Adult Team</a>
             <a class="collapse-item dropdown-text py-1" href="associates.html">Associates</a>
             <a class="collapse-item dropdown-text py-1" href="health-well-being.html">Health & Well-being</a>
             <a class="collapse-item dropdown-text py-1" href="fellows.html">Academic Fellows</a>

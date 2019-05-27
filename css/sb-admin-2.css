@@ -11319,11 +11319,14 @@ a:focus {
     text-align: center;
     float: right;
     vertical-align: 0;
+    padding-top: 7px;
     border: 0;
     font-weight: 900;
     content: '\f107';
     font-family: 'Font Awesome 5 Free';
   }
+
+
   .sidebar .nav-item .nav-link[data-toggle="collapse"].collapsed::after {
     content: '\f105';
   }

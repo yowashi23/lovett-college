@@ -312,6 +312,10 @@ font-weight:bold;
   color: #18347D;
 }
 
+.cust-yellow {
+  color: #FFC700;;
+}
+
 .social-icons:hover {
   color:white !important;
 }
@@ -350,7 +354,7 @@ font-weight:bold;
   width:100px !important;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 767px) {
   .lovett-logo {
     height:66px !important;
     width:75px !important;
@@ -398,4 +402,92 @@ font-weight:bold;
   color: #FFC700;
   font-weight:bold;
   cursor:pointer;
+}
+
+.sidebar-txt {
+  font-family: "Gotham" !important;
+  font-size:24px !important;
+  font-weight:bold;
+}
+
+@media only screen and (max-width: 767px) {
+  .sidebar-txt {
+    font-family: "Gotham" !important;
+    font-size:12px !important;
+    font-weight:bold;
+  }
+
+  div[class="collapse show sidebar-collapse-menu"] {
+    display:none;
+  }
+
+  div[class="collapse show sidebar-collapse-menu"] hr.sidebar-break {
+    border-top: 2px solid rgb(246, 246, 246);
+  }
+
+}
+
+.sidebar-txt:hover {
+  color: #FFC700;
+}
+
+.sidebar-color {
+  color: #FFFFFF !important;
+  padding-bottom: 0px !important;
+}
+
+.sidebar-break {
+  border: 2px solid rgba(246, 246, 246, 0);
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  font-weight: 400 !important;
+}
+
+a.sidebar-color[aria-expanded="true"] hr.sidebar-break {
+  border-top: 2px solid rgb(246, 246, 246);
+}
+
+div[class="sidebar-collapse-menu collapse show"] hr.sidebar-break {
+  border-top: 2px solid rgb(246, 246, 246);
+}
+
+div[class="collapse show sidebar-collapse-menu"] hr.sidebar-break {
+  border-top: 2px solid rgb(246, 246, 246);
+}
+
+.sidebar-dropdown {
+  background: rgba(255, 255, 255, 0.26);
+}
+
+.dropdown-text:hover {
+  background: rgba(255, 255, 255, 0.26) !important;
+}
+
+.dropdown-text {
+  color: #FFC700 !important;
+  font-size: 16px !important;
+  font-family: "Gotham" !important;
+  margin: 0 0 !important;
+  font-weight: bold;
+}
+
+a[class="collapse-item dropdown-text py-1 active"] {
+  background: rgb(255,199,0) !important;
+  color: #18347D !important;
+  font-style: italic;
+}
+
+a[class="collapse-item dropdown-text py-1 active"]:hover {
+  background: rgb(255,199,0) !important;
+  color: #18347D !important;
+  font-style: italic;
+}
+
+.shrink-txt {
+  font-size: 12px !important;
+}
+
+.sidebar-dark hr.final-sidebar-break {
+  border-top: 2px solid rgba(246, 246, 246, 0.2) !important;
+  width:90%;
 }
