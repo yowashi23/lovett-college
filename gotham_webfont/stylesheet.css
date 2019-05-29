@@ -507,3 +507,16 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
   border-top: 2px solid rgba(246, 246, 246, 0.2) !important;
   width:90%;
 }
+
+.top-background {
+  background-position:center center;
+  background-size:cover;
+  height: 226px !important;
+}
+
+.top-background-text {
+  font-family: "Gotham";
+  font-size: 72px;
+  font-weight: bold;
+  color: #FFC700;
+}
