@@ -528,3 +528,20 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
     font-weight: bold !important;
     color: #FFC700 !important;
   }
+}
+
+.top-background-text-long {
+  font-family: "Gotham" !important;
+  font-size: 55px !important;
+  font-weight: bold !important;
+  color: #FFC700 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .top-background-text-long {
+    font-family: "Gotham" !important;
+    font-size: 36px !important;
+    font-weight: bold !important;
+    color: #FFC700 !important;
+  }
+}
