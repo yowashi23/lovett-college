@@ -545,3 +545,28 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
     color: #FFC700 !important;
   }
 }
+
+.title-subpage {
+  font-family: "Gotham" !important;
+  font-size: 48px !important;
+  color: #18347D;
+  letter-spacing: 0.105em;
+  font-weight: bold !important;
+  text-align:center;
+}
+
+@media only screen and (max-width: 767px) {
+  .title-subpage {
+    font-family: "Gotham" !important;
+    font-size: 25px !important;
+    color: #18347D;
+    letter-spacing: 0.105em;
+    font-weight: bold !important;
+    text-align:center;
+  }
+}
+
+.tradition-break {
+  border-top: 8px solid rgb(255,199,0);
+  width: 75%;
+}
