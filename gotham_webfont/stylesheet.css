@@ -584,10 +584,12 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
   font-size: 30px !important;
 }
 
-.tradition-text {
-  font-family: "Gotham" !important;
-  color:black !important;
-  font-size: 20px !important;
-  font-style:italic !important;
-  word-wrap: break-word !important;
+@media only screen and (max-width: 767px) {
+  .tradition-header {
+    font-size: 25px !important;
+  }
+
+  .tradition-text {
+    font-size: 14px !important;
+  }
 }
