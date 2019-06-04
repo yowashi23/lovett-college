@@ -570,3 +570,24 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
   border-top: 8px solid rgb(255,199,0);
   width: 75%;
 }
+
+.tradition-body {
+  display: table !important;
+  width: 75% !important;
+  align:center !important;
+  margin-left: 13%;
+}
+
+.tradition-header {
+  font-family: "Gotham" !important;
+  color:black !important;
+  font-size: 30px !important;
+}
+
+.tradition-text {
+  font-family: "Gotham" !important;
+  color:black !important;
+  font-size: 20px !important;
+  font-style:italic !important;
+  word-wrap: break-word !important;
+}
