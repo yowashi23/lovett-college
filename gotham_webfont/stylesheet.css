@@ -593,3 +593,37 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
     font-size: 14px !important;
   }
 }
+
+.history-break {
+  border-top: 8px solid rgb(255,199,0);
+  width: 75%;
+}
+
+.history-body {
+  display: table !important;
+  width: 75% !important;
+  align:center !important;
+  margin-left: 13%;
+}
+
+.history-text {
+  font-size: 20px !important;
+  color: rgba(0, 0, 0, 0.89);
+}
+
+.stag-image {
+  position: relative;
+  top: -15px;
+}
+
+.facilities-body {
+  display: table !important;
+  width: 75% !important;
+  align:center !important;
+  margin-left: 13%;
+}
+
+.facilities-text {
+  font-size: 20px !important;
+  color: rgba(0, 0, 0, 0.89);
+}
