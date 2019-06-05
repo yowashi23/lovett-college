@@ -594,6 +594,34 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
   }
 }
 
+.eol-break {
+  border-top: 8px solid rgb(255,199,0);
+  width: 75%;
+}
+
+.eol-body {
+  display: table !important;
+  width: 75% !important;
+  align:center !important;
+  margin-left: 13%;
+}
+
+.eol-header {
+  font-family: "Gotham" !important;
+  color:black !important;
+  font-size: 30px !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .eol-header {
+    font-size: 25px !important;
+  }
+
+  .eol-text {
+    font-size: 14px !important;
+  }
+}
+
 .history-break {
   border-top: 8px solid rgb(255,199,0);
   width: 75%;
@@ -634,6 +662,24 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
 }
 
 .tradition-body {
+  display: table !important;
+  width: 75% !important;
+  align:center !important;
+  margin-left: 13%;
+}
+
+.eol-text {
+  font-size: 20px !important;
+  color: rgba(0, 0, 0, 0.89);
+}
+
+.eol-quote {
+  font-family: serif;
+  font-size: 27px !important;
+  color: rgba(0, 0, 0 , 0.89)
+}
+
+.eol-body {
   display: table !important;
   width: 75% !important;
   align:center !important;
