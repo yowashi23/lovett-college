@@ -584,13 +584,30 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
   font-size: 30px !important;
 }
 
+.tradition-text {
+  font-size: 20px !important;
+  color: rgba(0, 0, 0 , 0.89);
+}
+
+.eol-text {
+  font-size: 20px !important;
+  color: rgba(0, 0, 0 , 0.89);
+}
+
 @media only screen and (max-width: 767px) {
   .tradition-header {
     font-size: 25px !important;
   }
 
   .tradition-text {
-    font-size: 14px !important;
+    font-size: 12px !important;
+  }
+
+  .tradition-body {
+    display: table !important;
+    width: 100% !important;
+    align:center !important;
+    margin-left: 5%;
   }
 }
 
@@ -618,7 +635,14 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
   }
 
   .eol-text {
-    font-size: 14px !important;
+    font-size: 12px !important;
+  }
+
+  .eol-body {
+    display: table !important;
+    width: 100% !important;
+    align:center !important;
+    margin-left: 5%;
   }
 }
 
@@ -634,11 +658,6 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
   margin-left: 13%;
 }
 
-.history-text {
-  font-size: 20px !important;
-  color: rgba(0, 0, 0, 0.89);
-}
-
 .stag-image {
   position: relative;
   top: -15px;
@@ -651,45 +670,12 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
   margin-left: 13%;
 }
 
-.facilities-text {
-  font-size: 20px !important;
-  color: rgba(0, 0, 0, 0.89);
-}
-
-.tradition-text {
-  font-size: 20px !important;
-  color: rgba(0, 0, 0, 0.89);
-}
-
-.tradition-body {
-  display: table !important;
-  width: 75% !important;
-  align:center !important;
-  margin-left: 13%;
-}
-
-.eol-text {
-  font-size: 20px !important;
-  color: rgba(0, 0, 0, 0.89);
-}
-
 .eol-quote {
   font-family: serif;
   font-size: 27px !important;
   color: rgba(0, 0, 0 , 0.89)
 }
 
-.eol-body {
-  display: table !important;
-  width: 75% !important;
-  align:center !important;
-  margin-left: 13%;
-}
-
-.container {
-  position: relative;
-  width: 50%;
-}
 
 .toaster-image {
   opacity: 0.7;
