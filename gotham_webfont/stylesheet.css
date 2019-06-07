@@ -598,6 +598,7 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
   font-size: 20px !important;
   color: rgba(0, 0, 0 , 0.89);
   align: left !important;
+  margin-bottom: 25px;
 }
 
 @media only screen and (max-width: 767px) {
