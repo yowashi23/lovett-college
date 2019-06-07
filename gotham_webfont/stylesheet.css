@@ -761,3 +761,8 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
   font-family: "Gotham" !important;
   font-size: 25px !important;
 }
+
+.rooms-text {
+  font-size: 20px !important;
+  color: rgba(0, 0, 0 , 0.89);
+}
