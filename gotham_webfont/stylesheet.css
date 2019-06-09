@@ -594,13 +594,6 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
   color: rgba(0, 0, 0 , 0.89);
 }
 
-.facilities-text {
-  font-size: 20px !important;
-  color: rgba(0, 0, 0 , 0.89);
-  align: left !important;
-  margin-bottom: 25px;
-}
-
 @media only screen and (max-width: 767px) {
   .tradition-header {
     font-size: 25px !important;
@@ -688,6 +681,14 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
   color: rgba(0, 0, 0 , 0.89)
 }
 
+@media only screen and (max-width: 767px) {
+  .eol-quote {
+    font-family: serif;
+    font-size: 15px !important;
+    color: rgba(0, 0, 0 , 0.89)
+  }
+}
+
 
 .toaster-image {
   opacity: 0.7;
@@ -763,7 +764,18 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
   font-size: 25px !important;
 }
 
+.facilities-text {
+  font-size: 20px !important;
+  color: rgba(0, 0, 0 , 0.89);
+  align: left !important;
+  margin-bottom: 25px;
+  font-family:"bitterregular";
+  word-wrap:break-word !important;
+  align:"justify";
+}
+
 .rooms-text {
   font-size: 20px !important;
   color: rgba(0, 0, 0 , 0.89);
+  font-family:"bitterregular";
 }
