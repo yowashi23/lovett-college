@@ -792,3 +792,17 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
     margin-right:10px !important;
   }
 }
+
+table {
+  font-family: 'bitterregular';
+  word-wrap: break-word !important;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.89);
+  padding: 8px;
+}
