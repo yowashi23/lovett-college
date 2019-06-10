@@ -778,4 +778,5 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
   font-size: 20px !important;
   color: rgba(0, 0, 0 , 0.89);
   font-family:"bitterregular";
+  word-wrap:break-word !important;
 }
