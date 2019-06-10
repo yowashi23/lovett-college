@@ -765,7 +765,7 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
 }
 
 .facilities-text {
-  font-size: 20px !important;
+  font-size: 20px;
   color: rgba(0, 0, 0 , 0.89);
   align: left !important;
   margin-bottom: 25px;
@@ -779,4 +779,14 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
   color: rgba(0, 0, 0 , 0.89);
   font-family:"bitterregular";
   word-wrap:break-word !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .facilities-text {
+    font-size: 12px !important;
+  }
+
+  .rooms-text {
+    font-size: 12px !important;
+  }
 }
