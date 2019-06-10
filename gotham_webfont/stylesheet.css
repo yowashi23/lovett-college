@@ -784,9 +784,11 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
 @media only screen and (max-width: 767px) {
   .facilities-text {
     font-size: 12px !important;
+    margin-right:10px !important;
   }
 
   .rooms-text {
     font-size: 12px !important;
+    margin-right:10px !important;
   }
 }
