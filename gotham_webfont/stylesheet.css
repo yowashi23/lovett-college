@@ -844,9 +844,11 @@ td, th {
   border-radius: 2px; }
   .card-mat .card-mat-title {
     color: #fff !important;
-    font-size: 1.25em;
+    font-size: 24px !important;
     font-family: 'bitterregular' !important;
-    font-weight: 300; }
+    font-weight: bold !important;
+    text-align:center !important;
+     }
     .card-mat .card-mat-title.activator {
       cursor: pointer; }
   .card-mat.small, .card-mat.medium, .card-mat.large {
@@ -1003,5 +1005,11 @@ td, th {
 
 .waves-block {
   display: block; }
+
+  .card-break {
+    border-top: 1px solid #18347D;
+    line-height: 12px !important;
+    margin-top: 2px !important;
+  }
 
   /*Card styles */
