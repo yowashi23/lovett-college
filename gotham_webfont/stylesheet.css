@@ -1013,3 +1013,31 @@ td, th {
   }
 
   /*Card styles */
+
+  .associates-text-col {
+    display: table !important;
+    width: 75% !important;
+    align:center !important;
+    margin-left: 13%;
+    margin-right: 13%;
+  }
+
+  .associate-header {
+    margin-top: 5px;
+    font-family: 'Gotham';
+    color: #18347D;
+    font-weight: 500;
+  }
+
+  .associate-details {
+    margin-top: 10px;
+    font-family: 'Gotham';
+    color: black !important;
+    font-style: italic;
+  }
+
+  .associate-text {
+    margin-top: 10px;
+    font-family: 'Gotham';
+    color: black;
+  }
