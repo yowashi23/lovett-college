@@ -469,6 +469,7 @@ div[class="collapse show sidebar-collapse-menu"] hr.sidebar-break {
     font-family: "Gotham" !important;
     margin: 0 0 !important;
     font-weight: bold;
+    vertical-align: middle !important;
   }
 }
 
@@ -483,6 +484,7 @@ div[class="collapse show sidebar-collapse-menu"] hr.sidebar-break {
     font-family: "Gotham" !important;
     margin: 0 0 !important;
     font-weight: bold;
+    vertical-align: middle !important
   }
 }
 
@@ -490,12 +492,14 @@ a[class="collapse-item dropdown-text py-1 active"] {
   background: rgb(255,199,0) !important;
   color: #18347D !important;
   font-style: italic;
+  vertical-align: middle !important
 }
 
 a[class="collapse-item dropdown-text py-1 active"]:hover {
   background: rgb(255,199,0) !important;
   color: #18347D !important;
   font-style: italic;
+  vertical-align: middle !important
 }
 
 .shrink-txt {
