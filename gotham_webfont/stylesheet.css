@@ -213,7 +213,6 @@
 .nav-item-text {
   font-family: "Gotham";
   font-size: 30px;
-  line-height: 49px;
   text-align: right;
   vertical-align: middle;
   font-weight:normal;
@@ -762,6 +761,10 @@ a[class="collapse-item dropdown-text py-1 active"]:hover {
   color:black !important;
   font-family: "Gotham" !important;
   font-size: 25px !important;
+}
+
+.gala_title {
+  font-family: "Gotham" !important;
 }
 
 .facilities-text {
